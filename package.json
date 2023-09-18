@@ -1,0 +1,26 @@
+{
+  "name": "splat",
+  "version": "1.0.0",
+  "description": "WebGL 3D Gaussian Splat Viewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server . -p 8000 -c-1",
+    "remote": "ngrok http 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antimatter15/splat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antimatter15/splat/issues"
+  },
+  "homepage": "https://github.com/antimatter15/splat#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
